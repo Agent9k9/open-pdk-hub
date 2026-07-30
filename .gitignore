@@ -14,15 +14,21 @@
 *.err
 *.tmp
 *.swp
+*.tcl~
 *~
 
 # OpenROAD Specific
+openlane.log
 flow/pt_shell_command.log
 flow/command.log
 flow/default.svf
 flow/rc_model.bin
 results/
 runs/
+
+# Simulation & Synthesis Work Directories
+work/
+yosys_run.log
 
 # Python Artifacts
 __pycache__/
